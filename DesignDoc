@@ -1,0 +1,34 @@
+Hello and welcome! To the Clipchamp (2) design document. This goes over some of the program architecture of the program.
+
+**REPL.py:**
+
+Contains an extensible class that is responsible for the REPL used by clipchamp.
+
+map_of_commands: dict[int --> Command]
+
+Commands have to be added to the REPL object. This is the dictionary of integers --> Command, where the integer is
+the user's input.
+
+number_of_cmds: int
+
+Indicates the number of commands currently in the REPL. Is used to systematically generate the home_string used in the
+start_repl function (see below).
+
+_repl_is_going: bool
+
+Bool used to keep repl going. Used internally in quit()
+
+start_repl(home_string: str):
+    The REPL is started with this start_repl(), which takes a string to display as the 'home string', which will be
+    displayed at each iteration. The start_repl function is also responsible for parsing integers from the user and
+    executing the appropriate Command.
+
+quit():
+    Stops the REPL from running.
+    Quit functionality has to be added to the REPL in the form of a Command as well, although that functionality can use
+    this quit function.
+
+
+getPromptFromMap(i: int):
+    Returns the 'prompt' of the Command (what's gonna be displayed alongside the Command'scorresponding integer) given
+    its number i.
