@@ -9,8 +9,6 @@
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/frontpage.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/frontpage.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/logger.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/logger.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/main.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <updated>1586063543182</updated>
       <workItem from="1586063562276" duration="6473000" />
       <workItem from="1586133982724" duration="1091000" />
-      <workItem from="1586207820542" duration="6337000" />
+      <workItem from="1586207820542" duration="6585000" />
     </task>
     <servers />
   </component>
