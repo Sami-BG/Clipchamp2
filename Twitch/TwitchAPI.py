@@ -1,5 +1,6 @@
 import requests
 from AutoClipper import Constants as Const
+import schedule
 
 '''
 This is responsible for talking to the Twitch API to get appropriate internal representations of a channel:
@@ -9,7 +10,6 @@ This is responsible for talking to the Twitch API to get appropriate internal re
     is_online(String channel_name):
         Given a channel name, return a bool indicating whether channel is online. 
 '''
-
 
 # curl -H 'Accept: application/vnd.twitchtv.v5+json' \
 # -H 'Client-ID: uo6dggojyb8d6soh92zknwmi5ej1q2' \
@@ -40,7 +40,7 @@ def get_user_id(channel_name):
         user_id = response.json()['users'][0]['_id']
         return user_id
     else:
-        print("No channel with that name found")
+        NotADirectoryError("No channel with that name found")
     # We get the user ID and return it
 
 
@@ -48,7 +48,10 @@ def get_user_id(channel_name):
 # -H 'Client-ID: uo6dggojyb8d6soh92zknwmi5ej1q2' \
 # -X GET 'https://api.twitch.tv/kraken/streams/44322889'
 
-# Returns True if channel is live, False otherwise. Uses new Twitch API.
+'''
+Returns True if channel is live, False otherwise. Uses new Twitch API.
+'''
+
 def isOnline(channel_name):
 
     user_id = get_user_id(channel_name)
@@ -66,7 +69,6 @@ def isOnline(channel_name):
     # Returns True if 'stream' in JSON is None - this indicates that stream is offline.
     return not len(response['data']) == 0
 
-
 if __name__ == '__main__':
     channel = 'arteezy'
     Const.user_id = get_user_id(channel)
@@ -74,3 +76,5 @@ if __name__ == '__main__':
     channel = 'xqcow'
     Const.user_id = get_user_id(channel)
     print(isOnline(channel))
+    # Not a valid username:
+    print(get_user_id('asdiasboudasnjdhabuisudqhwdqus') is None)

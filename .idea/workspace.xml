@@ -3,12 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="64b72f8a-c0d1-4e0c-8d21-a50a68037b8f" name="Default Changelist" comment="">
       <change afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/new_logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Global/__init__.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/.vscode/settings.json" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/.vscode/settings.json" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/chat_parser.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/chat_parser.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/constants.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/constants.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/frontpage.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/frontpage.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/logger.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/logger.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/ClipChamp/clipchamp/main.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/ClipChamp/clipchamp/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClipChamp2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ClipChamp2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoClipper/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoClipper/Logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Clipchamp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Global/Clipchamp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/ClipchampCmds.py" beforeDir="false" afterPath="$PROJECT_DIR$/Global/ClipchampCmds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Command.py" beforeDir="false" afterPath="$PROJECT_DIR$/Global/Command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Global/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/REPL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Global/REPL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoClipper/TestLogs/Testlog_ABCDE01_2020-05-06.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twitch/TwitchAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Twitch/TwitchAPI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +55,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/AutoClipper" />
       <recent name="$PROJECT_DIR$/Main" />
       <recent name="$PROJECT_DIR$/Twitch" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TwitchAPI">
-    <configuration name="REPL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Main (1)">
+    <configuration name="Logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ClipChamp2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,12 +74,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoClipper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/REPL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoClipper/Logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ClipChamp2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Global" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Global/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ClipChamp2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,10 +154,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clipchamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/ClipChamp/clipchamp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/ClipChamp/clipchamp/logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.TwitchAPI" />
-        <item itemvalue="Python.REPL" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Logger" />
+        <item itemvalue="Python.logger" />
       </list>
     </recent_temporary>
   </component>
@@ -116,74 +199,108 @@
       <workItem from="1586063562276" duration="6473000" />
       <workItem from="1586133982724" duration="1091000" />
       <workItem from="1586207820542" duration="6585000" />
+      <workItem from="1586296665174" duration="607000" />
+      <workItem from="1586375560619" duration="17000" />
+      <workItem from="1586450941175" duration="817000" />
+      <workItem from="1586673779816" duration="7307000" />
+      <workItem from="1586731227622" duration="7582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586209670060">
+    <state x="432" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586236998396">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="432" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.808@0.23.1440.808" timestamp="1586209670060" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1586231714158">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="432" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.808@0.23.1440.808" timestamp="1586236998396" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1586883511558">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586070397076" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1586231714158" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1586231714157">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="257" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1586289845799" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1586712171761" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1586883511558" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1586883511556">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1586070397075" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1586231714157" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1586231714156">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="257" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1586289845799" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1586712171760" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1586883511556" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1586883511555">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1586070397075" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1586231714156" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1586231714158">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="257" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1586289845798" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1586712171759" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1586883511555" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1586883511557">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1586070397076" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1586231714158" />
-    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1586119172511">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="257" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1586289845799" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1586712171760" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1586883511557" />
+    <state width="1398" height="259" key="GridCell.Tab.1.bottom" timestamp="1586883511445">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586070380163" />
-    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1586119172511" />
-    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1586119172510">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="257" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1586289845801" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1586711408112" />
+    <state width="1398" height="259" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1586883511445" />
+    <state width="1398" height="259" key="GridCell.Tab.1.center" timestamp="1586883511442">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1586070380162" />
-    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1586119172510" />
-    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1586119172510">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="257" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1586289845800" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1586711408111" />
+    <state width="1398" height="259" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1586883511442" />
+    <state width="1398" height="259" key="GridCell.Tab.1.left" timestamp="1586883511442">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1586070380161" />
-    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1586119172510" />
-    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1586119172511">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="257" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1586289845800" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1586711408111" />
+    <state width="1398" height="259" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1586883511442" />
+    <state width="1398" height="259" key="GridCell.Tab.1.right" timestamp="1586883511444">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1586070380163" />
-    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1586119172511" />
-    <state x="397" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1586207822418">
+    <state width="1398" height="257" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1586289845801" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1586711408112" />
+    <state width="1398" height="259" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1586883511444" />
+    <state x="221" y="66" key="SettingsEditor" timestamp="1586306242869">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
+    <state x="221" y="66" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1586306242869" />
+    <state x="397" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1586731228071">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
     <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1586063609476" />
-    <state x="397" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1586207822418" />
+    <state x="397" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1586296669442" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1586375560797" />
+    <state x="397" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1586731228071" />
     <state x="503" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586065843546">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="503" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1586065843546" />
-    <state x="385" y="153" width="670" height="678" key="search.everywhere.popup" timestamp="1586210054345">
+    <state x="385" y="153" width="670" height="678" key="search.everywhere.popup" timestamp="1586233303045">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="385" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1586066154361" />
-    <state x="385" y="153" width="670" height="678" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1586210054345" />
+    <state x="385" y="153" width="670" height="678" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1586233303045" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ClipChamp2$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1586841583387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Global" />
     <SUITE FILE_PATH="coverage/ClipChamp2$REPL.coverage" NAME="REPL Coverage Results" MODIFIED="1586208907244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ClipChamp2$TwitchAPI.coverage" NAME="TwitchAPI Coverage Results" MODIFIED="1586214705639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ClipChamp2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1586731355074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Main" />
+    <SUITE FILE_PATH="coverage/ClipChamp2$TwitchAPI.coverage" NAME="TwitchAPI Coverage Results" MODIFIED="1586839875944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ClipChamp2$Logger.coverage" NAME="Logger Coverage Results" MODIFIED="1586720131334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoClipper" />
+    <SUITE FILE_PATH="coverage/ClipChamp2$logger.coverage" NAME="logger Coverage Results" MODIFIED="1586235741141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/ClipChamp/clipchamp" />
   </component>
 </project>

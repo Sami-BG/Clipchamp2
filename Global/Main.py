@@ -1,8 +1,9 @@
 from typing import List
 
-from Main import ClipchampCmds
-from Main.Clipchamp import ClipChamp
-from AutoClipper.Logger import ClippingSession
+from Global.Clipchamp import ClipChamp
+
+from Global import ClipchampCmds
+from AutoClipper.Logger import LoggingSession
 
 
 def main():
@@ -20,6 +21,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # File-global variables go here:
-    sessions: List[ClippingSession] = ClipchampCmds.list_of_logging_sessions
+    sessions: List[LoggingSession] = ClipchampCmds.list_of_logging_sessions
     main()

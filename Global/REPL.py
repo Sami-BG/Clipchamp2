@@ -1,4 +1,4 @@
-from Main.Command import Command
+from Global.Command import Command
 
 
 class REPL:
