@@ -21,5 +21,4 @@ def main():
 
 if __name__ == '__main__':
     # File-global variables go here:
-    sessions: List[ClippingSession] = ClipchampCmds.list_of_logging_sessions
     main()

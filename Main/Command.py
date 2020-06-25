@@ -3,6 +3,7 @@ Simple Command class that is instantiated with a name - i.e. add - prompt - "Add
 
 Note: There is no way to add arguments to func(), because func() is usually a command line argument prompt.
 """
+
 class Command:
     def __init__(self, name, prompt, func):
         self.name = name
