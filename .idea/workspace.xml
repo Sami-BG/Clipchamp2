@@ -25,17 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64b72f8a-c0d1-4e0c-8d21-a50a68037b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ClipChamp2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ClipChamp2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Clipchamp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Clipchamp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/ClipchampCmds.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/ClipchampCmds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Command.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.py" afterDir="false" />
-    </list>
+    <list default="true" id="64b72f8a-c0d1-4e0c-8d21-a50a68037b8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,6 +166,7 @@
       <workItem from="1592846722787" duration="32000" />
       <workItem from="1593026889935" duration="2514000" />
       <workItem from="1593031239563" duration="4919000" />
+      <workItem from="1593047209242" duration="319000" />
     </task>
     <servers />
   </component>
